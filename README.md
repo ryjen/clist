@@ -90,7 +90,8 @@ clist_sort(list);
 ## TODO
 
 - [x] unit tests
-- [ ] doubly linked list implementation
+- [x] single linked list implementation
+- [ ] double linked list implementation
 - [ ] dynamic array list implementation
 - [ ] ordered list implementation
 - [ ] circular list implementation
