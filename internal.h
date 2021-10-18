@@ -1,7 +1,7 @@
 #ifndef CLIST_INTERNAL_H
 #define CLIST_INTERNAL_H
 
-#include <clist/list-vtable.h>
+#include "list-vtable.h"
 
 struct __clist {
     ClistVtable *vtable;
@@ -20,6 +20,6 @@ struct __clist_item {
 /**
  * a singly linked list
  */
-ClistVtable *clist_single_vtable();
+ClistVtable *__clist_single_vtable();
 
 #endif

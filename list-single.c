@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #include <clist/list-item.h>
-#include <clist/list-vtable.h>
+#include "list-vtable.h"
 #include "internal.h"
 
 typedef struct __clist_slist ClistSList;

@@ -15,7 +15,6 @@ set(PROJECT_TEST ${PROJECT_NAME}-test)
 # define public headers
 set(HEADERS
 		clist/list-item.h
-		clist/list-vtable.h
 		clist/list.h
 		)
 
