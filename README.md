@@ -6,10 +6,10 @@ a linked list implementation
 
 Features:
 
-- double or single linked list implentation
-- list interface with virtual table for implementations (or custom)
+- virtual table for implementations (or custom)
 - allocated, static or transient memory capable
 - designed with public/private api
+- single linked (double, ordered, circular or dynamic array) implementation(s)
 
 examples:
 
