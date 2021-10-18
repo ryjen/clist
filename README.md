@@ -6,7 +6,7 @@ a linked list implementation
 
 Features:
 
-- virtual table for implementations (or custom)
+- virtual table for different implementations
 - allocated, static or transient memory capable
 - designed with public/private api
 - single linked (double, ordered, circular or dynamic array) implementation(s)
@@ -85,7 +85,6 @@ bool is_empty = clist_is_empty(list);
 ```c
 clist_sort(list);
 ```
-
 
 ## TODO
 
